@@ -19,7 +19,7 @@ else:
     
 print("Poäng: ", points, "/ 10")
 
-print("-------------------------------------------")
+print("-" * 60)
 
 print("""
 2. När blev intertetet tillgängligt för allmännheten?
@@ -38,7 +38,7 @@ else:
 
 print("Poäng: ",points, "/ 10")
 
-print("-------------------------------------------")
+print("-"*60)
 
 print("""
 3. Vem ledde mjukvaroutvecklingen för Apollo-programmet 1960?
@@ -57,7 +57,7 @@ else:
 
 print("Poäng: ",points, "/ 10")
 
-print("-----------------------------------------------------------")
+print("-" * 60)
 
 print("""
 4. Vem klassas som det första programeraren?
@@ -76,7 +76,7 @@ else:
 
 print("Poäng: ", points, "/ 10" )
 
-print("------------------------------------------------------------")
+print("-" *60)
 
 print("""
 5. Vad hände under PC-revolutionen?
@@ -92,11 +92,85 @@ if answera.lower()=='a':
     points+=1
 else:
     print("Fel")
-print("Poäng", points, "/ 10")
-print("-----------------------------------------------------------")
+print("Poäng: ", points, "/ 10")
+print("-"*60)
 
+print("""
+6. Kvinnor var de första programerarna
+A) True
+B) False
+""")
+answerab=input(str("Svar: "))
+if answerab.lower()=='a':
+    print("Rätt")
+    points+=1
+else:
+    print("Fel")
+print("Poäng: ", points, " / 10")
+print("-"*60)
 
+print("""
+7. Vad är HTML och vad används det till?
+A) Designar webbsidor, gör det fint
+B) Skapar webbsidor, strukturerar dem
+C) Skapar länkarna i Webbsidan
+D) Gör webbsidorna mer strukturerat
+""")
+answerabc=input(str("Svar: "))
+if answerabc.lower()=='b':
+    print("Rätt")
+    points+=1
+else:
+    print("fel")
+print("poäng: ", points, " /10")
+print("-"*60)
 
+print("""
+8. När introducrades hålhort?
+A) 1920-talet
+B) 140-talet
+C) 1900-talet
+D) 1890-talet
+""")
+answerabcd=input(str("Svar: "))
+if answerabcd.lower()=='c':
+    print("Rätt")
+    points+=1
+else:
+    print("Fel")
+print("Poäng: ", points, " / 10")
+print("-" *60)
 
+print("""
+9. Vad hände 1960, 1970-talet?
+A) Programeringen blev ett högstatusyrke
+B) De började med billigare, mindre datorer
+C) COBOL kom
+D) CSS blev viktigare
+""")
+answerabcde=input(str("Svar: "))
+if answerabcde.lower()=='a':
+    print("Rätt")
+    points+=1
+else:
+    print("Fel")
+print("Poäng: ", points, " / 10")
+print("-" *60)
 
+print("""
+10. Varför blev programeringen ett högstatusyrke?
+A) Män började jobba med det
+B) Färre klarade av att programera
+C) Det för för svårt att lära sig
+D) Fler kvinnor jobbade med det
+""")
+
+answerabcdef=input("Svar: ")
+if answerabcdef.lower()=='a':
+    print("Rätt")
+    points+=1
+else:
+    print("Fel")
+print("Totala poäng: ", points, " / 10")
+print("-"*60)
 
